@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>cr7c8_testapp2222_3ffcd</Name>
+  <AppVersion>2021-11-03T12:12:37Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.21103.27.0</CreatedByClientVersion>
+  <MinClientVersion>3.21103.27.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","sienaVersion":"9f011332-a087-47c1-80ac-d1803c5b61b7","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.21103.27","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>TestApp2222</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{"89a6be53-a0ed-42e2-8db6-9050ee922d81":{"id":"/providers/microsoft.powerapps/apis/shared_sharepointonline","displayName":"SharePoint","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1533/1.0.1533.2600/sharepointonline/icon.png","dataSources":["test"],"dependencies":[],"dependents":["67cad3e9-a377-49f5-bbf0-5f7db7fc50b6"],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"dataSets":{"https://volvogroup.sharepoint.com/sites/proj-coe_dev":{"dataSources":{"test":{"tableName":"37079a07-adf8-442c-a38d-95235e781a6a"}}}},"apiTier":"Standard","actions":["providers/PowerPlatform.Governance/Operations/Read"]},"67cad3e9-a377-49f5-bbf0-5f7db7fc50b6":{"id":"/providers/microsoft.powerapps/apis/shared_logicflows","displayName":"Logic flows","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1438/1.0.1438.2324/logicflows/icon.png","dataSources":["FlowTest222"],"dependencies":["89a6be53-a0ed-42e2-8db6-9050ee922d81"],"dependents":[],"parameterHints":{"workflowName":{"value":"bb038287-fea1-4aad-a478-c18334874188"},"workflowEntityId":{"value":"6fa39033-9b3c-ec11-8c62-6045bd8ab6bd"},"89a6be53-a0ed-42e2-8db6-9050ee922d81":{"value":"shared_sharepointonline"}},"parameterHintsV2":{"workflowName":{"value":"bb038287-fea1-4aad-a478-c18334874188"},"workflowEntityId":{"value":"6fa39033-9b3c-ec11-8c62-6045bd8ab6bd"},"shared_sharepointonline":{"value":"89a6be53-a0ed-42e2-8db6-9050ee922d81"}},"isOnPremiseConnection":false,"dataSets":{},"apiTier":"Standard","actions":["Run"]}}</ConnectionReferences>
+  <DatabaseReferences>{}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/cr7c8_testapp2222_3ffcd_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/cr7c8_testapp2222_3ffcd_DocumentUri.msapp</DocumentUri>
+</CanvasApp>
